@@ -1,3 +1,47 @@
+CommunionApp
+
+A sleek and responsive web application built with ReactJS, Vite, and TailwindCSS — designed to bring people together and foster meaningful connections through a seamless and modern user experience.
+
+## Tech Stack
+
+- ReactJS
+- Vite
+- TailwindCSS
+
+## Key Features
+
+- ⚡ Fast Development & Performance with Vite  
+- 💡 Dynamic and Component-Driven UI using ReactJS  
+- 🎨 Clean, Responsive, and Stylish Design with TailwindCSS  
+- 📱 Mobile-Friendly & Fully Responsive Layout  
+- ✨ Easy to Customize and Scale  
+
+## Project Overview
+
+CommunionApp is crafted to create a space where people can connect effortlessly. From its lightning-fast performance to its modern user interface, every aspect of the app is built with user experience in mind.
+
+## Live Demo
+
+[View Live App](https://communion-app-ten.vercel.app/) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
