@@ -25,7 +25,7 @@ const Events = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className=" flex-grow p-8 sm:p-6 md:p-8 lg:p-10 w-full mx-auto">
-        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 text-center">
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4 sm:mb-6 text-center pt-24">
           We Helped Communities Connect & Flourish
         </h2>
         <h1 className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold text-blue-600 text-center m-10">

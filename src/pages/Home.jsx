@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <section className="p-8 sm:px-4 md:px-6 text-center">
+    <div className="flex flex-col min-h-screen ">
+      <section className="py-8 w-full sm:px-4 md:px text-center">
         <h2 className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold mb-5 pt-15">
           Connect Communities
         </h2>

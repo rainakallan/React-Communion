@@ -8,7 +8,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="fixed top-0 left-0 right-0 shadow-sm bg-white text-black ">
+    <header className="fixed top-0 left-0 right-0 shadow-sm bg-white text-black z-50 ">
       <div className="flex justify-between items-center px-4 sm:px-6 py-5">
         <img
           src={logo}
@@ -34,16 +34,16 @@ const Navbar = () => {
       {isOpen && (
         <div
           className=" sm:hidden absolute top-0
-         left-0 w-50 h-screen bg-white flex flex-col items-center px-6 justify-center gap-6
-         text-xl font-semibold z-40 shadow-lg opacity-85"
+         left-0 w-50 h-screen bg-white flex flex-col items-start px-6 py-10  gap-6
+         text-xl font-semibold z-40 shadow-lg"
         >
-          <Link to="/" onClick={toggleMenu}>
+          <Link className="pl-2" to="/" onClick={toggleMenu}>
             Home
           </Link>
-          <Link to="/events" onClick={toggleMenu}>
+          <Link className="pl-2" to="/events" onClick={toggleMenu}>
             Events
           </Link>
-          <Link to="/about" onClick={toggleMenu}>
+          <Link className="pl-2" to="/about" onClick={toggleMenu}>
             About
           </Link>
         </div>

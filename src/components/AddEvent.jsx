@@ -14,7 +14,10 @@ const AddEvent = ({ onAddEvent }) => {
   };
   return (
     <div>
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col sm:flex-row gap-2 items-center"
+      >
         <input
           type="text"
           value={title}
@@ -29,13 +32,18 @@ const AddEvent = ({ onAddEvent }) => {
           onChange={(e) => setDate(e.target.value)}
           className="border p-2 m-5 rounded-xl w-full sm:w-1/3 sm:flex-1"
         />
-        <input
-          type="text"
+        <select
           value={category}
-          placeholder="Category"
           onChange={(e) => setCategory(e.target.value)}
-          className="border p-2 m-5  rounded-xl w-full sm:w-1/3 sm:flex-1"
-        />
+          className="border p-2 m-5 rounded-xl w-full sm:w-1/3 sm:flex-1 "
+        >
+          <option value="Select Category">Select Category</option>
+          <option value="All">All</option>
+          <option value="Religious">Religious</option>
+          <option value="Social">Social</option>
+          <option value="Charity">Charity</option>
+        </select>
+
         <button
           type="submit"
           className=" bg-blue-600 text-white 
