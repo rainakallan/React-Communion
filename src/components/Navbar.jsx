@@ -18,7 +18,6 @@ const Navbar = () => {
         <nav className="hidden sm:flex justify-center gap-10 font-semibold text-lg">
           <Link to="/">Home</Link>
           <Link to="/events">Events</Link>
-          <Link to="/about">About</Link>
         </nav>
         {/* Hamburger Menu */}
         <div
@@ -42,9 +41,6 @@ const Navbar = () => {
           </Link>
           <Link className="pl-2" to="/events" onClick={toggleMenu}>
             Events
-          </Link>
-          <Link className="pl-2" to="/about" onClick={toggleMenu}>
-            About
           </Link>
         </div>
       )}
